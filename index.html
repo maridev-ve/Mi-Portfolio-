@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mi sitio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+   
 </head>
 
 <body>
     <header>
-        <a href="#"><h1>Mi Sitio</h1></a>
-        <nav>
+
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+
+        <a href="#" id="logo-mariela">
+            <h1>Mariela</h1>
+        </a>
+        <nav class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -27,13 +31,13 @@
 
         <section class="masthead">
 
-            <div>
+            <div class="hero">
                 <div class="hero-container">
-                    <a href="#"> <img src="img/logo-mariela-2.png" alt="foto mariela" id="logo"> </a>
+                    <img src="img/foto-mariela-2.png" alt="foto mariela" id="imagen-mariela">
                 </div>
             </div>
 
-            <h2>Hola, soy <strong class="text-mariela">Mariela</strong></h2>
+            <h2 class="title">Hola, soy <strong class="text-mariela">Mariela</strong></h2>
 
             <div class="social-red">
                 <a href="#">Instagram</a>
@@ -49,8 +53,8 @@
             </div>
 
             <div class="buttons">
-                <a href="#"><button class="proyects">Ver mis Proyectos</button></a>
-                <a href="#"><button class="contact">Contactame</button></a>
+                <a href="#"><button id="proyects">Ver mis Proyectos</button></a>
+                <a href="#"><button id="contact">Contactame</button></a>
 
             </div>
 
@@ -58,10 +62,8 @@
 
         <section class="position">
 
-            <h2>
-                Sobre mí
-                <div class="underline"></div>
-            </h2>
+            <h2>Sobre mí</h2>
+            <div class="underline"></div>
 
             <div class="long-text-container">
                 <p class="long-text"> Soy una desarrolladora en crecimiento, curiosa por el mundo del desarrollo web y
@@ -157,7 +159,7 @@
                 <img src="img/things-foto.jpg" alt="" class="things-foto">
                 <img src="img/things-foto3.jpg" alt="" class="things-foto">
                 <img src="img/things-foto2.jpg" alt="" class="things-foto">
-                
+
             </figure>
         </section>
     </main>
