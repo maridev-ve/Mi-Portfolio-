@@ -53,8 +53,8 @@
             </div>
 
             <div class="buttons">
-                <a href="#"><button id="proyects">Ver mis Proyectos</button></a>
-                <a href="#"><button id="contact">Contactame</button></a>
+                <a href="#proyectos" id="proyects">Ver mis Proyectos</a>
+                <a href="#form-contact" id="contact">Contactame</a>
 
             </div>
 
@@ -105,7 +105,7 @@
 
         </aside>
 
-        <section class="flex">
+        <section class="flex" id="proyectos">
 
             <div class="flex-item1 card-container">
                 <h2>Our Services</h2>
@@ -162,6 +162,28 @@
 
             </figure>
         </section>
+
+        <section id="form-contact"> 
+            <form action="#" method="post" class="form-container">
+                <h2>Contactame</h2>
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+        </section>
+
     </main>
 
     <footer class="footer container">
