@@ -35,7 +35,7 @@ Mi-Portfolio-/
 
 ## Cómo verlo en local
 
-1. Clona el repositorio:
+1. Clona el repositorio: https://github.com/maridev-ve/Mi-Portfolio-.git
    ```bash
    git clone 
 2. Abre index.html con Live Server o directamente en el navegador.
