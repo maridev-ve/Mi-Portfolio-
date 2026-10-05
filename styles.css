@@ -19,6 +19,9 @@ header {
     border-color: #e5e7eb;
     border-style: solid;
     border-width: 2px;
+    position: sticky;
+    top:0;
+    z-index: 10;
 }
 
 #logo-mariela {
@@ -60,7 +63,6 @@ a {
 }
 
 ul>li {
-    background-color: #07300d;
     padding: 10px 20px;
     height: 30%;
     width: 30%;
@@ -72,7 +74,8 @@ ul>li {
 }
 
 ul>li>a {
-    color: rgb(225, 223, 223);
+    color:rgb(55 65 81);
+    font-size: 25px;
 }
 
 /*/////////////  MASTHEAD  ///////////////////*/
@@ -121,13 +124,27 @@ h2 {
 }
 
 .social-red {
-    margin: 1rem 0 1rem 0;
+    margin: 1.5rem 0 1.5rem 0;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+    gap: 8px;
+    display: flex;
+    border-radius: 5px;
+    
+}
+
+.social-red a {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #7492e277;
 }
 
 .description-container {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     font-size: 1.5rem;
+    color: rgb(75 85 99);
 }
 
 .buttons {
@@ -234,6 +251,7 @@ h2 {
     background: linear-gradient(to bottom, rgb(59, 131, 246), rgb(104, 23, 141));
     color: rgba(220, 224, 224, 0.911);
     border-radius: 20px;
+    
 }
 
 .card-progress h3 {
@@ -515,17 +533,11 @@ footer p {
 
 @media (min-width: 1000px) {
     .cards-flex {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        gap: 5%;
-        justify-content: center;
+        max-width: 1100px;
+        margin: 10% auto;
     }
 
     .card-container {
-        height: 131px;
         width: 30%;
     }
-
 }
