@@ -280,7 +280,8 @@ h2 {
 
 .description-course {
     margin: 20px;
-    flex-grow: 1;  /* ocupa todo el espacio que sobra en la card */
+    flex-grow: 1;
+    /* ocupa todo el espacio que sobra en la card */
     display: flex;
     flex-direction: column;
 }
@@ -332,52 +333,155 @@ h2 {
 
 .flex-item2 .descriptionCourse-top {
     background-color: #2563eb;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 
 .flex-item3 .descriptionCourse-top {
     background-color: #0891b2;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 
 .flex-item4 .descriptionCourse-top {
     background-color: #16a34a;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 
 .flex-item5 .descriptionCourse-top {
     background-color: #4f46e5;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 
 .flex-item6 .descriptionCourse-top {
     background-color: #059669;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 
 /*/////////////  MAS COSAS  ///////////////////*/
 
-
-.video-container {
+.mor-things{
+    width: 100%;
+    background-color: #059669;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+    padding: 5rem;
 }
+
 
 .vide-programing {
-    width: 300px;
+    width: 100%;
     margin-bottom: 3%;
-}
-
-.things-foto {
-    width: 30%;
-    height: 100px;
-    object-fit: contain;
+    max-width: 500px;
 }
 
 .things-fotos {
     display: flex;
     gap: 20px;
+    width: 100%;
 }
+
+.items-foto {
+    width: 30%;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+/*/////////////  FORMULARIO ///////////////////*/
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5%;
+    padding: 5%;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border-radius: 10px;
+}
+
+.form-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.form-title h2 {
+    font-size: 2.25rem;
+
+}
+
+.form-title p {
+    font-size: 1.125rem;
+    color: rgb(75 85 99);
+}
+
+.form-redes{
+    margin: 5rem 0 5rem 0 ;
+
+}
+
+.form-redes .circle{
+    background-color: rgb(59 130 246);
+    width: 30px;
+    height: 30px;
+    border-radius: 9999px;
+     
+}
+
+.circle-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.circle-container a{
+    color: rgb(75 85 99);
+    font-size: 20px;
+}
+
+.circle-container h3{
+    font-weight: 600;
+}
+
+.form-group {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+form input {
+    border: solid 1px rgb(209 213 219);
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form textarea {
+    padding: 2%;
+    font-size: 1rem;
+}
+
+.form-submit {
+    background-color: rgb(59 130 246);
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: rgba(220, 224, 224, 0.911);
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: none;
+}
+
+
 
 /*/////////////  fOOTER ///////////////////*/
 
