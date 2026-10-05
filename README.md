@@ -2,7 +2,7 @@
 
 Portfolio personal como Desarrolladora Front-End. Aquí muestro quién soy, los proyectos que he hecho durante mi formación y cómo contactarme.
 
-🔗 **Ver la web:** 
+🔗 **Ver la web:** https://github.com/maridev-ve/Mi-Portfolio-.git
 
 ## Tecnologías
 
@@ -35,7 +35,7 @@ Mi-Portfolio-/
 
 ## Cómo verlo en local
 
-1. Clona el repositorio:
+1. Clona el repositorio: https://github.com/maridev-ve/Mi-Portfolio-.git
    ```bash
    git clone 
 2. Abre index.html con Live Server o directamente en el navegador.
